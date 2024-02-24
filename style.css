@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #040505;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 15px 0;
+}
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+            background-color: #131416; /* Add a background color to the nav */
+        }
+
+a {
+            text-decoration: none; /* Removes underline */
+            color: #d2d5d9; /* Set your desired color */
+        }
+
+        #logo {
+            width: auto; /* Allow the logo to adjust its width */
+            height: 40px; /* Set a fixed height for the logo */
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        li {
+            color: white; /* Set the color of the text to white */
+            font-size: 16px;
+        }
+
+ .divider {
+            border-bottom: 1px solid #444; /* Dark grey color for the divider */
+            margin: 20px 0; /* Adjust the margin to control the spacing around the divider */
+        }
+
+h1 {
+    font-size: 14px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 14px; /* Adjust the font size for paragraphs */
+    line-height: 1.5; /* Set the line height for better readability */
+    margin: 10px 0; /* Add margin to separate paragraphs */
+}
+
+.hero-section {
+    max-width: 1440px; /* Adjust the value based on your design preferences */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Add these styles to your existing styles.css file */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form horizontally */
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 100%; /* Make the input take the full width of its container */
+}
+
+
+button {
+    padding: 10px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    border: 2px solid #333; /* Dark grey outline */
+    border-radius: 6px; /* 6px corner radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #111; /* Darken the background on hover */
+}
+
+
+.special-paragraph {
+    font-size: 12px;
+    font-weight: ligther;
+    color: #A5B4D3; /* Set a specific color */
+    /* Add any other styles you want for special paragraphs */
+}
+
+.container {
+  width: 1400px;
+  height: 350px;
+  padding: 93px 60px 60px;
+  background: rgba(6, 5, 7, 0.80);
+  box-shadow: 0px 0.5px 0px rgba(255, 255, 255, 0.50) inset;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 36.45px rgba(89, 29, 221, 0.75);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.content-container {
+  align-self: stretch;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.title {
+  color: #ECECEC;
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 41.60px;
+  word-wrap: break-word;
+}
+
+.description {
+  width: 971px;
+  color: #ECECEC;
+  font-size: 23px;
+  font-family: Inter;
+  font-weight: 300;
+  line-height: 34.50px;
+  word-wrap: break-word;
+}
+
+.additional-content {
+  align-self: stretch;
+  padding-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+.design-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-card {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.design-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.design-info {
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(45deg, #FFB6C1, #87CEEB);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.design-info p {
+    font-size: 11px;
+    margin: 0;
+}
+
+.single-line-text {
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.single-line-text ul {
+    list-style: none; /* Remove default list styles */
+    padding: 5px; /* Remove default padding */
+    white-space: nowrap; /* Prevent line breaks within the list */
+}
+
+.single-line-text li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust margin between list items */
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 10px; /* Adjust margin for better readability on small screens */
+    }
+
+    header {
+        text-align: center; /* Center the logo on small screens */
+    }
+
+    #logo {
+        height: 60px; /* Reduce the height of the logo for better fit on small screens */
+    }
+
+    .hero-section img {
+        width: 100%; /* Make the hero image fill the width of the screen on small screens */
+    }
+
+    h1 {
+        font-size: 16px; /* Adjust the font size for better readability on small screens */
+    }
+
+    .pattern-container {
+        padding: 10px; /* Add padding to the pattern container for better spacing on small screens */
+    }
+
+    .design-card {
+        width: calc(100% - 20px); /* Make the design cards full width with some margin on small screens */
+        margin: 10px 0; /* Adjust the margin between design cards on small screens */
+    }
+
+    .footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-top: 0.5px dotted #888; /* Dotted line styling */
+    font-size: 11px;
+}
