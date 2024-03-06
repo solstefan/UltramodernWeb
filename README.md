@@ -27,4 +27,4 @@ Make sure you have the following installed on your system:
 Open your terminal or command prompt and run the following command to clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/solstefan/Ulttamodern.git
+git clone https://github.com/solstefan/UlttamodernWeb.git
